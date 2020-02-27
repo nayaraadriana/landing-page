@@ -1,0 +1,39 @@
+.chamada{
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.chamada__inner h2{
+    font-family: 'Roboto medium';
+    font-size: 24px;
+    color: white;
+    padding-bottom: 24px;
+    
+}
+
+.chamada__inner p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 24px;
+    
+}
+
+
+
+
+@media (min-width: 992px){
+
+    .chamada{
+        width: 50%;
+        position: absolute;
+        float: left;
+        padding: 20px;
+    }
+
+    .chamada__imagem{
+        width: 70% ;
+    
+    }
+}
